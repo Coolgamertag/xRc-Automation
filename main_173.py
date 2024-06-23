@@ -36,13 +36,13 @@ while True:
     Controls = open('Controls.txt', 'w')
 
     #grabs positions
-    RPos = Robot['myrobot'][0]['global pos']
-    RVol = Robot['myrobot'][0]['velocity']
-    RAngle = Robot['myrobot'][0]['global rot']
-    RRotV = Robot['myrobot'][0]['rot velocity']
-    Climb1Pos = Robot['myrobot'][4]['local pos'][1]
+    RPos = Robot['myrobot'][1]['global pos']
+    RVol = Robot['myrobot'][1]['velocity']
+    RAngle = Robot['myrobot'][1]['global rot']
+    RRotV = Robot['myrobot'][1]['rot velocity']
+    Climb1Pos = Robot['myrobot'][2]['local pos'][1]
     Climb2Rot = Robot['myrobot'][5]['local rot'][2]
-    HAngle = Robot['myrobot'][7]['local rot']
+    HAngle = Robot['myrobot'][6]['local rot']
     TRot = Robot['myrobot'][6]['local rot'][1]
 
     #Gets distance from hub and velocity
