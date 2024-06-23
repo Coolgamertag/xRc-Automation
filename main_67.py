@@ -149,10 +149,10 @@ while(True):
     Controls = open('Controls.txt', 'w')
 
     #grabs positions
-    GPos = Robot['myrobot'][0]['global pos']
-    GVol = Robot['myrobot'][0]['velocity']
-    GRot = Robot['myrobot'][0]['global rot']
-    GRotV = Robot['myrobot'][0]['rot velocity']
+    GPos = Robot['myrobot'][1]['global pos']
+    GVol = Robot['myrobot'][1]['velocity']
+    GRot = Robot['myrobot'][1]['global rot']
+    GRotV = Robot['myrobot'][1]['rot velocity']
     HAngle = Robot['myrobot'][10]['local rot']
     BallsR = []
     BallsR.append(Game['objects'][9]['global pos'])
